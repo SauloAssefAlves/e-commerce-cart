@@ -3,6 +3,7 @@ import { useEffect, useState, useContext } from "react";
 import { CartContext } from "../../context/CartContext";
 import { api } from "../../services/api";
 import toast from "react-hot-toast";
+import { useNavigate } from "react-router-dom";
 
 export interface ProductProps {
   id: string;
@@ -15,6 +16,7 @@ export interface ProductProps {
 export function Home() {
   const [products, setProducts] = useState<ProductProps[]>([]);
   const { addProductCart } = useContext(CartContext);
+  const navigate = useNavigate();
 
   useEffect(() => {
     async function getProducts() {
@@ -29,14 +31,14 @@ export function Home() {
       style: {
         borderRadius: 10,
         backgroundColor: "#121212",
-        color: "#FFF"
-      }
+        color: "#FFF",
+      },
     });
     addProductCart(product);
   }
 
   return (
-    <div className=''>
+    <div>
       <main className='w-full max-w-7xl px-4 mx-auto'>
         <h1 className='font-bold text-2xl mb-4 mt-10 text-center'>
           Trending products
@@ -49,6 +51,9 @@ export function Home() {
                 className='w-full rounded-lg max-h-70 mb-2'
                 src={product.cover}
                 alt={product.title}
+                onClick={() => {
+                  navigate(`/product/${product.id}`);
+                }}
               />
               <p className='font-medium mt-1 mb-2'>{product.title}</p>
               <div className='flex gap-3 items-center'>
