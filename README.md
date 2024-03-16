@@ -1,30 +1,79 @@
-# React + TypeScript + Vite
+<div align="center">
+  <h1>E-Commerce Cart</h1>
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p>This project demonstrates the creation of a functional shopping cart in React TS. The project is simple and serves to demonstrate the ability to implement the basic functionalities of a cart:
 
-Currently, two official plugins are available:
+    Addition of products:
+        The user can add products to the cart by clicking a button.
+    Product removal:
+        The user can remove products from the cart by clicking a button.
+    Quantity update:
+        The user can update the number of products in the cart.
+    Total calculation:
+        The cart total is automatically calculated based on the quantity and price of the products.
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# :hourglass: Getting started
 
-## Expanding the ESLint configuration
+<h3 style="font-size: 18px;">🧬 Clone this repository</h3>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```bash
+git clone https://github.com/SauloAssefAlves/e-commerce-cart.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<h3 style="font-size: 18px;">📂 Move yourself to the appropriate repository</h3>
+
+```bash
+cd e-commerce
+```
+
+<h3 style="font-size: 18px;">🎉 Install the package dependencies</h3>
+
+```bash
+npm install
+# or
+yarn
+```
+
+# 🔥 Usage
+To run the project in the browser:
+```bash
+npm run dev
+# or
+yarn run dev
+```
+
+Open a new terminal to run the api
+```bash
+npm run api
+# or
+yarn run api
+```
+
+Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+
+
+```
+
+# 🚀 Techs
+
+- React
+- React-Router
+- React-Hot-Toast
+- React-Icons
+- Axios
+- Json-server
+
+
+```
+# 👨🏻‍💻 Author
+
+- GitHub: [saulo-assef](https://github.com/SauloAssefAlves)
+- LinkedIn: [saulo-assef](www.linkedin.com/in/saulo-assef)
+
+
+
+# ✨ Show your support
+
+Give a ⭐ if this project helped you or if you liked it!
