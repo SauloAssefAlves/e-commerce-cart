@@ -55,11 +55,8 @@ yarn run api
 
 Abra [http://localhost:5173](http://localhost:5173) para visualizá-lo no navegador.
 
-
+# 🚀 Bibliotecas utilizadas
 ```
-
-# 🚀 Techs
-
 - React
 - React-Router
 - React-Hot-Toast
