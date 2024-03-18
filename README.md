@@ -16,7 +16,7 @@
         O subtotal de cada item no carrinho é calculado automaticamente.
 </p>
 
-# :hourglass: Getting started
+# :hourglass: Começando
 
 <h3 style="font-size: 18px;">🧬 Clone esse repositório</h3>
 
@@ -38,7 +38,7 @@ npm install
 yarn
 ```
 
-# 🔥 Usage
+# 🔥 Uso
 Para executar o projeto no navegador:
 ```bash
 npm run dev
