@@ -2,33 +2,35 @@
   <h1>E-Commerce Cart</h1>
 </div>
 
-<p>This project demonstrates the creation of a functional shopping cart in React TS. The project is simple and serves to demonstrate the ability to implement the basic functionalities of a cart:
+<p>Este projeto demonstra a criação de um carrinho de compras funcional com React TS. O projeto é simples e serve para demonstrar a capacidade de implementação das funcionalidades básicas de um carrinho:
 
-    Addition of products:
-        The user can add products to the cart by clicking a button.
-    Product removal:
-        The user can remove products from the cart by clicking a button.
-    Quantity update:
-        The user can update the number of products in the cart.
-    Total calculation:
-        The cart total is automatically calculated based on the quantity and price of the products.
+    Adição de produtos:
+        O usuário pode adicionar produtos ao carrinho clicando em um botão.
+    Remoção do produto:
+        O usuário pode remover produtos do carrinho clicando em um botão.
+    Atualização de quantidade:
+        O usuário pode atualizar a quantidade de produtos no carrinho.
+    Cálculo total:
+        O total do carrinho é calculado automaticamente com base na quantidade e preço dos produtos.
+    Cálculo subtotal:
+        O subtotal de cada item no carrinho é calculado automaticamente.
 </p>
 
 # :hourglass: Getting started
 
-<h3 style="font-size: 18px;">🧬 Clone this repository</h3>
+<h3 style="font-size: 18px;">🧬 Clone esse repositório</h3>
 
 ```bash
 git clone https://github.com/SauloAssefAlves/e-commerce-cart.git
 ```
 
-<h3 style="font-size: 18px;">📂 Move yourself to the appropriate repository</h3>
+<h3 style="font-size: 18px;">📂 Vá para o repositório apropriado</h3>
 
 ```bash
 cd e-commerce
 ```
 
-<h3 style="font-size: 18px;">🎉 Install the package dependencies</h3>
+<h3 style="font-size: 18px;">🎉 Instale as dependências do pacote</h3>
 
 ```bash
 npm install
@@ -37,21 +39,21 @@ yarn
 ```
 
 # 🔥 Usage
-To run the project in the browser:
+Para executar o projeto no navegador:
 ```bash
 npm run dev
 # or
 yarn run dev
 ```
 
-Open a new terminal to run the api
+Abra um novo terminal para executar a API:
 ```bash
 npm run api
 # or
 yarn run api
 ```
 
-Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+Abra [http://localhost:5173](http://localhost:5173) para visualizá-lo no navegador.
 
 
 ```
@@ -74,6 +76,6 @@ Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 
 
 
-# ✨ Show your support
+# ✨ Mostre seu apoio
 
-Give a ⭐ if this project helped you or if you liked it!
+Dê um ⭐ se esse projeto te ajudou ou se você gostou!
