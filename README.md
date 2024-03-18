@@ -69,7 +69,7 @@ Abra [http://localhost:5173](http://localhost:5173) para visualizá-lo no navega
 
 
 ```
-# 👨🏻‍💻 Author
+# 👨🏻‍💻 Autor
 
 - GitHub: [saulo-assef](https://github.com/SauloAssefAlves)
 - LinkedIn: [saulo-assef](www.linkedin.com/in/saulo-assef)
